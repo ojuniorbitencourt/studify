@@ -25,6 +25,26 @@ const row = new ActionRowBuilder()
                 label: "Discord.js",
                 description: "Veja a documentação de Discord.js",
                 value: "discordjs"
+            },
+            {
+                label: "HTML5",
+                description: "Veja a documentação de HTML5",
+                value: "html5"
+            },
+            {
+                label: "CSS3",
+                description: "Veja a documentação de CSS3",
+                value: "css3"
+            },
+            {
+                label: "Node.js",
+                description: "Veja a documentação de Node.js",
+                value: "nodejs"
+            },
+            {
+                label: "Kali-linux",
+                description: "Veja a documentação de Kali-linux",
+                value: "kali"
             })
     )
 

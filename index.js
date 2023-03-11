@@ -42,6 +42,14 @@ client.on(Events.InteractionCreate, async interaction =>{
             await interaction.reply("Documentação do C#: https://learn.microsoft.com/pt-br/dotnet/csharp/")
         } else if (selected == "discordjs"){
             await interaction.reply("Documentação do Discord.js: https://docs.python.org/3/")
+        } else if (selected == "html5"){
+            await interaction.reply("Documentação do HTML5: https://developer.mozilla.org/en-US/docs/Web/HTML")
+        } else if (selected == "css3"){
+            await interaction.reply("Documentação do CSS3: https://developer.mozilla.org/pt-BR/docs/Web/CSS")
+        } else if (selected == "nodejs"){
+            await interaction.reply("Documentação do Node.js: https://nodejs.org/en/docs/")
+        } else if (selected == "kali"){
+            await interaction.reply("Documentação do Kali-linux: https://www.kali.org/docs/")
         }
     }
 
